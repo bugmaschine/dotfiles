@@ -3,7 +3,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH="$HOME/.nimble/bin:$HOME/.nvm/versions/node/v20.9.0/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/usr/bin:/usr/local/bin:$PATH"
-
+export ZSH="$HOME/.oh-my-zsh"
 # Java and Python
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 export PYENV_ROOT="$HOME/.pyenv"
