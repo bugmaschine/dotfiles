@@ -7,6 +7,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Java and Python
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 export PYENV_ROOT="$HOME/.pyenv"
+export PICO_SDK_PATH="$HOME/source/pico-sdk"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
