@@ -18,7 +18,8 @@ else
     echo "Oh My Zsh already installed"
 fi
 
-
+echo "installing nvm..."
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 echo "linking..."
 ln -sf "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
