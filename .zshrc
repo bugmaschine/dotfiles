@@ -6,10 +6,10 @@ export PATH="/usr/bin:/usr/local/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 # Java and Python
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
-export PYENV_ROOT="$HOME/.pyenv"
 export PICO_SDK_PATH="$HOME/source/pico-sdk"
+export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+eval "$(pyenv init - zsh)"
 
 # NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
